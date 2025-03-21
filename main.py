@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 
 # Backend FastAPI URL
-BACKEND_URL = "https://ai-ragpipeline-798800248787.us-central1.run.app"  # Adjust as needed
+BACKEND_URL = "https://rag-798800248787.us-central1.run.app"  # Adjust as needed
 # st.session_state['metadata'] = requests.get('https://rag-pipeline-data.s3.us-east-2.amazonaws.com/metadata/metadata_s3url.json').json()
 model_mapper = {
     "openai/gpt-4o": "gpt-4o-2024-08-06",
